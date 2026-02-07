@@ -1,0 +1,51 @@
+{
+	// ========== エディタ ==========
+	"editor.fontFamily": "'UDEV Gothic 35NFLG', Consolas, 'Courier New', monospace",	// エディタフォント
+	"editor.unicodeHighlight.nonBasicASCII": false,	// 絵文字等の非ASCII文字を強調表示しない
+	"editor.wordSegmenterLocales": ["ja"],	// 日本語の単語区切りを適切に処理
+	"editor.renderWhitespace": "all",	// 空白文字を常に表示
+	"editor.renderLineHighlight": "all",	// カーソル行全体をハイライト
+	"editor.showFoldingControls": "always",	// 折りたたみコントロールを常に表示
+	"editor.smoothScrolling": true,	// スムーズスクロール
+	"editor.wrappingIndent": "indent",	// 折り返し時にインデントを維持
+	"editor.cursorSmoothCaretAnimation": "on",	// カーソル移動をスムーズに
+	"editor.mouseWheelZoom": true,	// Ctrl+マウスホイールでズーム
+	"editor.guides.bracketPairs": true,	// 対応する括弧のペアをガイド表示
+	"editor.minimap.showSlider": "always",	// ミニマップのスライダーを常に表示
+
+	// ========== ターミナル ==========
+	"terminal.integrated.fontFamily": "'UDEV Gothic 35NFLG'",	// ターミナルフォント
+	"terminal.integrated.fontLigatures.enabled": true,	// フォントの合字を有効化
+	"terminal.integrated.cursorStyle": "line",	// カーソルスタイルを縦線に
+	"terminal.integrated.cursorBlinking": true,	// カーソルを点滅
+	"terminal.integrated.smoothScrolling": true,	// スムーズスクロール
+	"terminal.integrated.enableVisualBell": true,	// ビジュアルベルを有効化
+
+	// ========== ファイル ==========
+	"files.autoGuessEncoding": true,	// 文字コードを自動判定
+	"files.candidateGuessEncodings": ["utf8", "shiftjis", "eucjp"],	// 判定候補の文字コード
+	"files.insertFinalNewline": true,	// ファイル末尾に改行を挿入
+	"files.trimFinalNewlines": true,	// ファイル末尾の空行を削除
+	"files.trimTrailingWhitespace": true,	// 行末の余分な空白を削除
+
+	// ========== エクスプローラー/SCM ==========
+	"explorer.compactFolders": false,	// ネストしたフォルダを個別表示
+	"scm.alwaysShowRepositories": true,	// リポジトリを常に表示
+	"scm.compactFolders": false,	// フォルダを個別表示
+	"scm.defaultViewMode": "tree",	// デフォルトのビューをツリー表示に
+	"scm.diffDecorationsGutterWidth": 5,	// Diff装飾の幅を5pxに
+	"scm.inputFontFamily": "editor",	// エディタと同じフォントを使用
+
+	// ========== 検索 ==========
+	"search.showLineNumbers": true,	// 検索結果に行番号を表示
+
+	// ========== Diff ==========
+	"diffEditor.experimental.useTrueInlineView": true,	// インライン表示を使用
+
+	// ========== Workbench ==========
+	"workbench.colorTheme": "Visual Studio Dark",	// カラーテーマ
+	"workbench.list.smoothScrolling": true,	// リスト表示をスムーズスクロール
+	"workbench.view.alwaysShowHeaderActions": true,	// ビューヘッダーのアクションを常に表示
+	"workbench.editor.pinnedTabsOnSeparateRow": true,	// ピン留めタブを別行に表示
+
+}
